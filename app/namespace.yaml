@@ -2,4 +2,6 @@ kind: Project
 apiVersion: project.openshift.io/v1
 metadata:
   name: sample
+  labels:
+    argocd.argoproj.io/managed-by: openshift-gitops
 spec: {}
